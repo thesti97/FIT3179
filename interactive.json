@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Drag the sliders to highlight points.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/thesti97/FIT3179/master/country.csv"
+  },
+  "layer": [
+    {
+      "selection": {
+        "country": {
+          "type": "single",
+          "fields": ["num_of_airports", "paved_airports"],
+          "init": {"num_of_airports": 4, "paved_airports": 2},
+          "bind": {
+            "num_of_airports": {
+              "input": "range",
+              "min": 0,
+              "max": 10000,
+              "step": 10
+            },
+            "paved_airports": {
+              "input": "range",
+              "min": 0,
+              "max": 10000,
+              "step": 10
+            }
+          }
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "x": {"field": "num_of_airports", "type": "quantitative"},
+        "y": {"field": "paved_airports", "type": "quantitative"},
+        "color": {
+          "condition": {
+            "selection": "country",
+            "field": "country",
+            "type": "nominal"
+          },
+          "value": "grey"
+        }
+      }
+    },
+    {
+      "transform": [{"filter": {"selection": "country"}}],
+      "mark": "circle",
+      "encoding": {
+        "x": {"field": "num_of_airports", "type": "quantitative"},
+        "y": {"field": "paved_airports", "type": "quantitative"},
+        "color": {"field": "country", "type": "nominal"},
+        "size": {"value": 1000}
+      }
+    }
+  ],
+  "config": {}
+}
