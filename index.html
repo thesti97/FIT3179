@@ -122,7 +122,8 @@
    
 <script type="text/javascript">
   var specVis1 = "https://raw.githubusercontent.com/thesti97/FIT3179/master/airportsmall.json";
-  var specVis2= "./line-chart-responsive.json";
+  var specVis2= "https://raw.githubusercontent.com/thesti97/FIT3179/master/interactive.json";
+  var specVis3= "https://raw.githubusercontent.com/thesti97/FIT3179/master/bar_chart.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -132,13 +133,10 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#vis3', specVis1, {"actions": false}).then(function(result) {
+  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#vis4', specVis2, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
 </script>
 </body>
 </html>
