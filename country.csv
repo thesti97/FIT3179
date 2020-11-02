@@ -1,0 +1,238 @@
+country,num_of_airports,paved_airports
+Afghanistan,53,19
+Albania,5,4
+Algeria,143,57
+American Samoa,3,3
+Angola,193,31
+Anguilla,3,1
+Antarctica,26,0
+Antigua and Barbuda,3,2
+Argentina,"1,141",156
+Armenia,11,10
+Aruba,1,1
+Australia,465,326
+Austria,55,25
+Azerbaijan,35,27
+"Bahamas, The",62,23
+Bahrain,4,4
+Bangladesh,17,15
+Barbados,1,1
+Belarus,67,35
+Belgium,43,27
+Belize,45,4
+Benin,5,1
+Bermuda,1,1
+Bhutan,2,1
+Bolivia,881,16
+Bosnia and Herzegovina,25,7
+Botswana,78,9
+Brazil,"4,072",726
+British Indian Ocean Territory,1,1
+British Virgin Islands,4,2
+Brunei,2,2
+Bulgaria,210,130
+Burkina Faso,24,2
+Burma,76,37
+Burundi,8,1
+Cambodia,17,6
+Cameroon,34,11
+Canada,"1,404",514
+Cape Verde,10,9
+Cayman Islands,3,2
+Central African Republic,37,2
+Chad,56,8
+Chile,366,84
+China,502,442
+Christmas Island,1,1
+Cocos (Keeling) Islands,1,1
+Colombia,990,116
+Comoros,4,4
+"Congo, Democratic Republic of the",198,26
+"Congo, Republic of the",25,6
+Cook Islands,10,1
+Costa Rica,151,39
+Cote d'Ivoire,27,7
+Croatia,69,23
+Cuba,136,65
+Curacao,1,1
+Cyprus,15,13
+Czech Republic,122,44
+Denmark,92,28
+Djibouti,13,3
+Dominica,2,2
+Dominican Republic,35,16
+Ecuador,,105
+Egypt,86,73
+El Salvador,65,4
+Equatorial Guinea,7,6
+Eritrea,13,4
+Estonia,19,13
+Ethiopia,61,17
+Falkland Islands (Islas Malvinas),7,2
+Faroe Islands,1,1
+Fiji,28,4
+Finland,148,75
+France,475,297
+French Polynesia,53,46
+French Southern and Antarctic Lands,4,0
+Gabon,44,13
+"Gambia, The",1,1
+Gaza Strip,1,1
+Georgia,22,18
+Germany,549,330
+Ghana,11,7
+Gibraltar,1,1
+Greece,81,67
+Greenland,15,10
+Grenada,3,3
+Guam,,4
+Guatemala,372,13
+Guernsey,2,2
+Guinea,16,4
+Guinea-Bissau,9,2
+Guyana,96,10
+Haiti,14,4
+Honduras,104,12
+Hong Kong,2,2
+Hungary,43,22
+Iceland,99,6
+India,352,249
+Indonesia,684,171
+Iran,319,133
+Iraq,104,75
+Ireland,39,16
+Isle of Man,1,1
+Israel,48,30
+Italy,132,101
+Jamaica,27,12
+Jan Mayen,1,0
+Japan,176,144
+Jersey,1,1
+Jordan,18,16
+Kazakhstan,97,65
+Kenya,191,17
+Kiribati,19,4
+"Korea, North",79,37
+"Korea, South",116,72
+Kosovo,8,4
+Kuwait,7,4
+Kyrgyzstan,28,18
+Laos,41,9
+Latvia,42,19
+Lebanon,7,5
+Lesotho,26,3
+Liberia,29,2
+Libya,137,59
+Lithuania,81,26
+Luxembourg,2,1
+Macau,1,1
+Macedonia,14,10
+Madagascar,84,27
+Malawi,32,6
+Malaysia,118,38
+Maldives,5,3
+Mali,20,8
+Malta,1,1
+Marshall Islands,15,4
+Mauritania,28,9
+Mauritius,5,2
+Mexico,"1,819",250
+"Micronesia, Federated States of",6,6
+Moldova,11,5
+Mongolia,46,14
+Montenegro,5,4
+Montserrat,2,2
+Morocco,58,32
+Mozambique,106,23
+Namibia,129,21
+Nauru,1,1
+Nepal,47,11
+Netherlands,27,20
+New Caledonia,25,12
+New Zealand,122,40
+Nicaragua,143,11
+Niger,27,10
+Nigeria,54,38
+Niue,1,1
+Norfolk Island,1,1
+Northern Mariana Islands,5,3
+Norway,98,67
+Oman,130,11
+Pakistan,148,101
+Palau,3,1
+Panama,118,54
+Papua New Guinea,562,21
+Paracel Islands,1,1
+Paraguay,800,15
+Peru,211,58
+Philippines,254,85
+Poland,129,86
+Portugal,65,43
+Puerto Rico,29,17
+Qatar,6,4
+Romania,54,26
+Russia,"1,213",593
+Rwanda,9,4
+Saint Barthelemy,1,1
+"Saint Helena, Ascension, and Tristan da Cunha",1,1
+Saint Kitts and Nevis,2,2
+Saint Lucia,2,2
+Saint Martin,1,1
+Saint Pierre and Miquelon,2,2
+Saint Vincent and the Grenadines,6,5
+Samoa,4,1
+Sao Tome and Principe,2,2
+Saudi Arabia,217,81
+Senegal,20,10
+Serbia,29,11
+Seychelles,14,8
+Sierra Leone,9,1
+Singapore,8,8
+Sint Maarten,1,1
+Slovakia,36,20
+Slovenia,16,7
+Solomon Islands,36,2
+Somalia,59,7
+South Africa,578,147
+South Sudan,24,2
+Spain,154,97
+Spratly Islands,4,3
+Sri Lanka,18,14
+Sudan,116,17
+Suriname,51,5
+Svalbard,4,1
+Swaziland,15,2
+Sweden,249,152
+Switzerland,65,42
+Syria,104,29
+Taiwan,41,38
+Tajikistan,26,17
+Tanzania,124,9
+Thailand,105,64
+Timor-Leste,6,2
+Togo,8,2
+Tonga,6,1
+Trinidad and Tobago,6,3
+Tunisia,32,16
+Turkey,99,88
+Turkmenistan,27,22
+Turks and Caicos Islands,8,7
+Tuvalu,1,0
+Uganda,46,5
+Ukraine,,189
+United Arab Emirates,41,25
+United Kingdom,505,306
+United States,"15,079","5,194"
+Uruguay,58,9
+Uzbekistan,54,33
+Vanuatu,31,3
+Venezuela,409,129
+Vietnam,44,37
+Virgin Islands,2,2
+Wake Island,1,1
+Wallis and Futuna,2,2
+West Bank,2,2
+Western Sahara,6,3
+Yemen,55,17
+Zambia,94,8
+Zimbabwe,216,19
