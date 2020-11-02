@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 300,
+  "height": 300,
+  "title": "Number of airports per country",
+  "data": {
+    "url": "https://raw.githubusercontent.com/thesti97/FIT3179/master/country.csv"
+  },
+  "selection": {
+    "continent_highlight": {
+      "type": "multi",
+      "fields": ["country"],
+      "bind": "legend"
+    }
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "country", "type": "nominal", "axis": {"tickOffset": 1}},
+    "y": {"field": "paved_airports", "type": "quantitative"},
+    "color": {"field": "country", "type": "nominal"},
+    "opacity": {
+      "condition": {"selection": "continent_highlight", "value": 1},
+      "value": 0.2
+    }
+  },
+  "config": {}
+}
